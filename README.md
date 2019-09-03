@@ -1,4 +1,4 @@
-## CISY 225 Spring 2019 Project 1 About Me Starter Code 
+## Project 1 About Me Starter Code 
 
 ### Instructions:
 
