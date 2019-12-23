@@ -1,14 +1,28 @@
+/* 
+  styles.css
+
+  modified: 2019-12-22
+
+  styleguide: airbnb https://github.com/airbnb/css
+
+*/
+
+/* default settings */
+
 body {
-  font-family: sans-serif;
+  font-family: serif;
+  font-size: 1rem;
   margin: 0;
 }
 
-.content {
-  max-width: 30rem;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* css reset */
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
 
+/* header  */
 .header {
   background-color: #f3f3f3;
   height: 3.5em;
@@ -22,12 +36,14 @@ img.logo {
 }
 
 .page-title {
-  color: #6b6b6b;
+  color: #636363;
   font-size: 2rem;
   font-weight: normal;
   float: right;
-  padding-right: 4rem;
+  padding-right: 10vw;
 }
+
+/* hero */
 
 .hero {
   padding: 4em;
@@ -46,6 +62,38 @@ img.my-picture {
   background-color: white;
 }
 
+
+.my-name {
+  color: #f3f3f3;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.my-location {
+  color: #f3f3f3;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* about-me */
+
+.about-me {
+  padding: 2.5em;
+}
+
+.content {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 4px solid #f3f3f3;
+  padding-left: 3rem;
+}
+
 .iama {
   max-width: 100%;
   color: #1a569b;
@@ -55,7 +103,7 @@ img.my-picture {
 
 .my-info {
   max-width: 100%;
-  color: #404040;
+  color: #636363;
   font-size: 1.5rem;
   line-height: 1.5;
   margin: 0px auto 3em;
@@ -65,27 +113,3 @@ img.my-picture {
   margin: 0px;
 }
 
-.my-name {
-  color: white;
-  font-size: 1.6rem;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.my-location {
-  color: #dedede;
-  font-size: 1.25rem;
-  font-weight: 600;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.about-me {
-  padding: 2.5em;
-}
-
-.about-content {
-  border-left: 4px solid #dedede;
-  padding-left: 3rem;
-}
